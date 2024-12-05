@@ -20,7 +20,8 @@ export default [
   ...compat.extends("eslint-config-airbnb-base"),
   {
     rules: {
-      'import/prefer-default-export': 'off'
+      'import/prefer-default-export': 'off',
+      'import/extensions': 'off'
     }
   }
 ];
