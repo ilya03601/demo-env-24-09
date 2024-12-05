@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx -y node-static src",
+    "dev": "webpack serve --mode=development",
     "lint": "npx eslint . --fix",
+    "build": "webpack --mode=production",
     "prepare": "husky"
   },
   "author": "",
@@ -17,10 +18,12 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.31.0",
     "globals": "^15.13.0",
+    "html-webpack-plugin": "^5.6.3",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.10",
     "prettier": "3.4.2",
     "webpack": "^5.97.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
   }
 }
