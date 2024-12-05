@@ -23,5 +23,8 @@ export default [
       'import/prefer-default-export': 'off',
       'import/extensions': 'off'
     }
+  },
+  {
+    ignores: ['eslint.config.mjs']
   }
 ];
