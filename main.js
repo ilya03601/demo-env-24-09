@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector("#app").innerHTML=`<h1>Demo Env</h1><h2>${30}</h2>`})();
